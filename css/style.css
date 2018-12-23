@@ -1,0 +1,28 @@
+#movies img, #movie img {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies .col-md-3 {
+        padding-block-end: 110px;
+    }
+    #movies h5 {
+        margin-top: 5px;
+    }
+    #movies .col-md-3 .img {
+        height: 240px;
+    }
+}
+
+#movies .col-md-3 {
+    padding-block-end: auto;
+}
+#movies h5 {
+    margin-top: 10px;
+}
+#movie .row {
+    padding-bottom: 50px;
+}
+
